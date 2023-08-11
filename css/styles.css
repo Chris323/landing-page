@@ -1,0 +1,26 @@
+body{
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    /* 2 values: Top/Bottom and Left/Right
+       3 values: Top Right/Left Bottom
+       4 values: Top Right Bottom Left*/
+    /* margin: 0px 80px; */
+    background-color: #1F2937;
+    color: white;
+}
+
+ol {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 28px;
+}
