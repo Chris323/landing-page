@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 80px;
+    padding: 0px 200px;
     /* 2 values: Top/Bottom and Left/Right
        3 values: Top Right/Left Bottom
        4 values: Top Right Bottom Left*/
@@ -17,10 +17,19 @@ body{
     color: white;
 }
 
+h2 {
+    font-weight: 500;
+}
+
 ol {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
     gap: 28px;
+}
+
+.head.right {
+    color: #E5E7EB;
+    font-size: 18px;
 }
