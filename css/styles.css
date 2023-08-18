@@ -93,7 +93,7 @@ button {
 .card {
   display: flex;
   justify-content: space-evenly;
-  padding: 0px 200px;
+  padding: 0px 200px 100px 200px;
 }
 
 .cards {
@@ -103,4 +103,70 @@ button {
 
 .items {
   width: 170px;
+}
+
+.testimonial.main {
+  background-color: #E5E7EB;
+  padding-top: 100px;
+  padding-bottom: 70px;
+
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  /* border: 3px solid red; */
+  
+  
+}
+
+.quote.main {
+  font-size: 36px;
+  width:850px;
+  color: #1F2937;
+  /* border: 3px solid #3882f6; */
+}
+
+.quote.sayer {
+  align-self: flex-end;
+  color: #1F2937;
+  font-weight: bold;
+  font-size: 20px;
+  /* border: 3px solid #3882f6; */
+}
+
+.button.two {
+  border: 2px solid white;
+  height: 40px;
+}
+
+.signup {
+  display:flex;
+  justify-content: center;
+}
+
+.blue-box {
+  background-color: #3882f6;
+  width:900px;
+  margin:90px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 40px;
+  border-radius: 10px;
+  align-items: center;
+  gap: 60px;
+}
+
+.text {
+  color:white;
+
+}
+
+.action-call {
+  margin: 0;
+}
+
+.action-info  {
+  margin:0;
+  color: #e5e7eb
 }
